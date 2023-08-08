@@ -1,0 +1,124 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6bb39b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #85e6c0;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    margin: 0.1rem;
+}
+nav a {
+    color: #0b0b0d; 
+    text-decoration: none; 
+    margin: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #daf3ea;
+}
+
+.recomendacion {
+    border: 0.1rem solid grey;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido {
+    display: flex;
+    flex-direction:row;
+}
+
+.texto {
+    flex: 10;
+}
+
+
+
+#series h2 {
+    margin: 0;
+}
+
+
+audio{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: #85e6c0;
+    padding: 1rem;
+}
+
+.contenido_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto_footer {
+    margin: 1;
+}
+
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.icono {
+    width: 3rem;
+    height: 3rem;
+}
+.opciones-container {
+    border: 0.1rem solid #ddd;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.opcion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+}
+
+.video-container{
+    max-width: 10rem;
+    height: auto;
+}
+video{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
