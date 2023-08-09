@@ -48,6 +48,9 @@ nav a {
 nav ul li {
     margin: 0.3rem;
 }
+nav ul li a{
+    font-size: 2rem;
+}
 
 section {
     padding: 6rem;
@@ -184,4 +187,10 @@ button {
 .pagina{
     text-align: center;
     background-color: #daf3ea;
+}
+.pagina a{
+    font-size: 2rem;
+}
+form label{
+    font-size: 1.5rem
 }
