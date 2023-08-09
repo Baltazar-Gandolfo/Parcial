@@ -14,6 +14,10 @@ body {
     padding: 0;
 }
 
+link{
+    width: 5rem;
+    height: 3rem;
+}
 
 .inicio {
     text-align: center;
@@ -28,6 +32,11 @@ body {
 
 .contenido-seccion {
     padding: 2rem;
+}
+
+.inicio .contenido-seccion {
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -144,7 +153,13 @@ font-size: 1rem;
 #redes a{
     font-size:2rem ;
 }
-.info-contacto{
-    font-size: 1rem;
 
+.contenido-seccion  {
+    font-size: 1.4rem;
+}
+link{
+    font-size: 3rem;
+}
+span{
+    font-size: 1.4rem;
 }
